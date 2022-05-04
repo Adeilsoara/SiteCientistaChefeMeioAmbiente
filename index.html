@@ -8,6 +8,7 @@
   <title>Programa Cientista Chefe Meio Ambiente</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
+  
   <!-- Timeline Files -->
   <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -17,11 +18,10 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
+  
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -30,11 +30,17 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <!-- MDB Usado para os icones das bandeiras de tradução -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.css" rel="stylesheet"/>
+
+
   <!-- Template Main CSS File -->
+  
   <link href="assets/css/style.css" rel="stylesheet">
+
   <!-- Ocultar barra automática do google tradutor -->
   <link rel="stylesheet" href="assets/css/tradutor.css">
-
+ 
   <!-- =======================================================
   * Template Name: OnePage - v4.7.0
   * Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
@@ -61,7 +67,7 @@
           <!-- <li><a class="nav-link scrollto o" href="#portfolio">Portfolio</a></li> -->
           <li><strong><a class="nav-link scrollto" href="#team">Cientista Chefe</a></strong></li>
           <li><strong><a class="nav-link scrollto" href="#pricing">Timeline</a></strong></li>
-          <li class="dropdown"><strong><a href="#services"><span>Produtos</span> <i class="bi bi-chevron-down"></i></a></strong>
+          <li class="dropdown"><a href="#services"><strong><span>Produtos</span></strong><i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Plataforma de visualização PEDEA</a></li>
               <li><a href="#">Servidor Geográfico PEDEA</a></li>
@@ -75,7 +81,7 @@
 
             </ul>
           </li>
-          <li class="dropdown"><strong> <a href="#testimonials"><span>Projetos</span> <i class="bi bi-chevron-down"></i></a></strong>
+         <li class="dropdown"><a href="#testimonials"><strong><span>Projetos</span></strong><i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Planejamento Costeiro e Marinho</a></li>
               <li><a href="#">Sistema de Informação Geográfica <br> (SIG) Ambiental</a></li>
@@ -88,14 +94,12 @@
           <li><strong><a class="nav-link scrollto" href="#contact">Contato</a></strong></li>
 
          <!--  <li><a class="getstarted scrollto" href="#about">Get Started</a></li> -->
+         
          <!-- Menu para tradução automática via API do Google Tradutor -->
-         <li class="dropdown"><strong> <a href="#"><span>Traduzir</span> <i class="bi bi-chevron-down"></i></a></strong>
-          <ul>
-            <li><a href="javascript:trocarIdioma('pt')"><img alt="Português" src="images/es.png"></a></li>
-            <li><a href="javascript:trocarIdioma('es')"><img alt="Espanhol" src="images/es.png"></a></li>
-            <li><a href="javascript:trocarIdioma('en')"><img alt="Inglês" src="images/en.png"></a></li>
-          </ul>
-        </li>
+          <li><a href="javascript:trocarIdioma('pt')"><i class="flag flag-brazil"></i></a></li>
+          <li><a href="javascript:trocarIdioma('es')"><i class="flag flag-spain"></i></a></li>
+          <li><a href="javascript:trocarIdioma('en')"><i class="flag flag-united-states"></i></a></li>
+        
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -2068,6 +2072,8 @@
 
   <div id="google_translate_element" class="boxTradutor"></div>
 <!-- O Javascript deve vir depois -->
+<!-- MDB -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.js"></script>
 
 <!-- Chamada do script para tradução automática via api do google tradutor -->
 <script type="text/javascript" src="assets/js/tradutor.js"> </script>
