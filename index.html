@@ -56,19 +56,24 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">Home</a></h1>
+      <!-- <h1 class="logo"><a href="index.html">Home</a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><strong><a class="nav-link scrollto active" href="#hero">Home</a></li></strong>
+          <li><strong><a class="nav-link scrollto active" href="#hero">Página Inicial</a></li></strong>
           <li><strong><a class="nav-link scrollto" href="#about">O Programa</a></strong></li>
-          <!-- <li><a class="nav-link scrollto" href="#services">Services</a></li> -->
-          <!-- <li><a class="nav-link scrollto o" href="#portfolio">Portfolio</a></li> -->
-          <li><strong><a class="nav-link scrollto" href="#team">Cientista Chefe</a></strong></li>
-          <li><strong><a class="nav-link scrollto" href="#pricing">Timeline</a></strong></li>
-          <li class="dropdown"><a href="#services"><strong><span>Produtos</span></strong><i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#testimonials"><strong><span>Projetos</span></strong><i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Planejamento Costeiro e Marinho</a></li>
+              <li><a href="#">Sistema de Informação Geográfica <br> (SIG) Ambiental</a></li>
+              <li><a href="#">Lista Vermelha da Fauna e Flora</a></li>
+              <li><a href="#">Implementação de Unidades <br> Conservação</a></li>
+              <li><a href="#">Mudanças Climáticas</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#produtos"><strong><span>Produtos</span></strong><i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Plataforma de visualização PEDEA</a></li>
               <li><a href="#">Servidor Geográfico PEDEA</a></li>
@@ -82,16 +87,12 @@
 
             </ul>
           </li>
-         <li class="dropdown"><a href="#testimonials"><strong><span>Projetos</span></strong><i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Planejamento Costeiro e Marinho</a></li>
-              <li><a href="#">Sistema de Informação Geográfica <br> (SIG) Ambiental</a></li>
-              <li><a href="#">Lista Vermelha da Fauna e Flora</a></li>
-              <li><a href="#">Implementação de Unidades <br> Conservação</a></li>
-              <li><a href="#">Mudanças Climáticas</a></li>
-            </ul>
-          </li>
-      
+          <!-- <li><a class="nav-link scrollto" href="#services">Services</a></li> -->
+          <!-- <li><a class="nav-link scrollto o" href="#portfolio">Portfolio</a></li> -->
+          <li><strong><a class="nav-link scrollto" href="#team">Cientista Chefe</a></strong></li>
+          <li><strong><a class="nav-link scrollto" href="#pricing">Timeline</a></strong></li>
+
+        
           <li><strong><a class="nav-link scrollto" href="#contact">Contato</a></strong></li>
 
          <!--  <li><a class="getstarted scrollto" href="#about">Get Started</a></li> -->
@@ -108,6 +109,7 @@
     </div>
   </header><!-- End Header -->
 
+
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
@@ -121,40 +123,7 @@
         <a href="#about" class="btn-get-started scrollto">Conheça mais</a>
       </div>
 
-     <!--  <div class="row icon-boxes">
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
-          <div class="icon-box">
-            <div class="icon"><i class="ri-stack-line"></i></div>
-            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
-          <div class="icon-box">
-            <div class="icon"><i class="ri-palette-line"></i></div>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
-          <div class="icon-box">
-            <div class="icon"><i class="ri-command-line"></i></div>
-            <h4 class="title"><a href="">Magni Dolores</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="500">
-          <div class="icon-box">
-            <div class="icon"><i class="ri-fingerprint-line"></i></div>
-            <h4 class="title"><a href="">Nemo Enim</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-          </div>
-        </div>
-
-      </div> --> 
+    
     </div>
   </section><!-- End Hero -->
 
@@ -431,8 +400,131 @@
     
     <!-- End Testimonials Section -->
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg">
+    <!-- ======= Produtos Section ======= -->
+
+    <section id="produtos" class="testimonials">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Produtos</h2>
+          <p></p>
+        </div>
+
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/client3.png" class="testimonial-img" alt="">
+                <h3>Plataforma de visualização PEDEA</h3>
+                <h4></h4>
+              </div>
+            </div>
+
+           
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
+                  quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/client3.png" class="testimonial-img" alt="">
+                <h3>Servidor Geográfico PEDEA</h3>
+                
+              </div>
+            </div>
+            
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
+                  tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/client3.png" class="testimonial-img" alt="">
+                <h3>Atlas Digital Costeiro e Marinho</h3>
+                
+              </div>
+            </div>
+            
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
+                  minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/client3.png" class="testimonial-img" alt="">
+                <h3>Observatório Costeiro e Marinho</h3>
+                
+                </div>
+            </div>
+            
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
+                  labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/client3.png" class="testimonial-img" alt="">
+                <h3>Plano Estadual de Contingência na Zona Costeira</h3>
+              </div>
+            </div>
+            
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
+                  labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/client3.png" class="testimonial-img" alt="">
+                <h3>Plano de Demarcação e Monitoramento Ambiental da Linha
+                  de Costa</h3>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
+                  labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/client3.png" class="testimonial-img" alt="">
+                <h3>Inventário da Fauna do Ceará</h3>
+              </div>
+            </div>
+
+          </div>
+
+           
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section>
+
+ <!--    <section id="services" class="services section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -446,9 +538,6 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box iconbox-blue">
               <div class="icon">
-                <!--        <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
-                </svg> -->
                 <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor"
                   class="bi bi-geo-alt" viewBox="0 0 16 16">
                   <path
@@ -519,7 +608,7 @@
                 </svg>
                 <i class="bx bx-slideshow"></i>
               </div>
-              <h4><a href="">Plano Estadual de Contingê ncia na Zona Costeira</a></h4>
+              <h4><a href="">Plano Estadual de Contingência na Zona Costeira</a></h4>
               <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
             </div>
           </div>
@@ -588,7 +677,9 @@
         </div>
 
       </div>
-    </section><!-- End Sevices Section -->
+    </section> -->
+    
+    <!-- End Sevices Section -->
 
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">
