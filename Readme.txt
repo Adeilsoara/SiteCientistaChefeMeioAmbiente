@@ -3,5 +3,5 @@ O site ainda encontra-se em desenvolvimento.
 
 Link do site: 
 
-<a href="geohub.sema.ce.gov.br/hotsite/index.html"> Programa Cientista Chefe Meio Ambiente </a>
+geohub.sema.ce.gov.br/hotsite/index.html
 
