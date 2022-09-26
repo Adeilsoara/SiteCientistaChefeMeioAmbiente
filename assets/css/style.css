@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #2487ce;
+  border: 6px solid #00a84a;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -935,7 +935,7 @@ section {
 --------------------------------------------------------------*/
 .cta {
   /* background: #2487ce; */
-  background: #00a84a;
+  background: #9db6c82b;
   background-size: cover;
   padding: 60px 0;
 }
