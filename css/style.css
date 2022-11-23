@@ -17,7 +17,9 @@ a {
     text-decoration: none !important; }
 
 .content {
-  padding: 7rem 0; }
+  padding: 7rem 0; 
+  box-shadow: 0 10px 6px -6px #777;
+}
 
 h2 {
   font-size: 20px; }
