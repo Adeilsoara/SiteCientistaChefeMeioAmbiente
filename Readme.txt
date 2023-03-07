@@ -4,5 +4,5 @@ O site ainda encontra-se em desenvolvimento.
 
 Link para o site: 
 
-geohub.sema.ce.gov.br/hotsite/index.html
+https://pedea.sema.ce.gov.br/ccma/
 
